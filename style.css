@@ -13012,3 +13012,123 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 
+/*Mine*/
+.download {
+	font-weight: bold;
+	font-size: 36px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+@media screen and (max-width: 1200px) {
+	#primary-menu ul li a{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media screen and (max-width: 1115px) {
+	#primary-menu ul li a{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1037px) {
+	#primary-menu ul li a{
+		font-size: 11.5px;
+	}
+}
+
+.newborder {
+	padding: 40px;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	-moz-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	position: relative;
+	top:10px;
+}
+.newborder h3, .newborder h4{
+	color: dodgerblue;
+}
+.newborder:after {
+   border: none;
+	content: none;
+}
+
+.removeborder:after {
+   border: none;
+	content: none;
+}
+
+#page-title.page-title-parallax.committee {
+	padding: 125px 0;
+	display: block;
+	height: 725px;
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	   -o-background-size: cover;
+	      background-size: cover;
+	border-bottom: none;
+	text-shadow: 3px 3px 10px black !important;
+}
+
+@media (max-width: 1215px) {
+	#page-title.page-title-parallax.committee {
+  		padding: 140px 0;
+	}
+}
+@media (max-width: 990px) {
+	#page-title.page-title-parallax.committee {
+  		padding: 40% 0;
+  		height: 550px;
+	}
+	#header.transparent-header + #page-title.page-title-parallax.committee .container {
+		padding-top: 10px;
+	}
+}
+@media (max-width: 767px) {
+	#page-title.page-title-parallax.committee h1 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 678px) {
+	#page-title.page-title-parallax.committee {
+  		padding: 40% 0;
+  		height: 300px;
+	}
+	#header.transparent-header + #page-title.page-title-parallax.committee .container {
+		padding-top: 5px;
+	}
+}
+
+#page-title.page-title-parallax.committee {
+	background-attachment: initial;
+    background-position: center center;
+}
