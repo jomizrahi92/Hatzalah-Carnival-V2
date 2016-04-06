@@ -1,1 +1,1 @@
-This is a a base of all HTML for canvas theme.
+This is a a base of what HTML is needed from canvas theme.
