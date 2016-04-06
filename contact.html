@@ -138,22 +138,6 @@
                                 <button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
                             </div>
                         </form>
-                        <script type="text/javascript">
-                        $("#template-contactform").validate({
-                            submitHandler: function(form) {
-                                $('.form-process').fadeIn();
-                                $(form).ajaxSubmit({
-                                    target: '#contact-form-result',
-                                    success: function() {
-                                        $('.form-process').fadeOut();
-                                        $(form).find('.sm-form-control').val('');
-                                        $('#contact-form-result').attr('data-notify-msg', $('#contact-form-result')())('');
-                                        SEMICOLON.widget.notifications($('#contact-form-result'));
-                                    }
-                                });
-                            }
-                        });
-                        </script>
                     </div>
                     <!-- .postcontent end -->
                     <!-- Sidebar
@@ -240,7 +224,7 @@
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/jquery.calendario.js"></script>
     <script type="text/javascript" src="js/events-data.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js"></script>
     <script type="text/javascript" src="js/jquery.gmap.js"></script>
     <!-- Footer Scripts
     ============================================= -->
