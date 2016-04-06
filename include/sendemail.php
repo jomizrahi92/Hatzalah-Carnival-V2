@@ -5,8 +5,8 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'username@website.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
+				'email' => 'hatzalahcarnival@gmail.com', // Your Email Address
+				'name' => 'Hatzalah Carnival' // Your Name
 			);
 
 // Form Processing Messages
@@ -36,7 +36,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 		if( $botcheck == '' ) {
 
-			$mail->SetFrom( $email , $name );
+            $mail->SetFrom( 'admin@hatzalahcarnival.com' , $name );
 			$mail->AddReplyTo( $email , $name );
 			foreach( $toemails as $toemail ) {
 				$mail->AddAddress( $toemail['email'] , $toemail['name'] );
