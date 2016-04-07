@@ -10,7 +10,7 @@ $toemails[] = array(
 			);
 
 // Form Processing Messages
-$message_success = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
+$message_success = 'We have <strong>successfully</strong> received your Message and will get back to you as soon as possible.';
 
 // Add this only if you use reCaptcha with your Contact Forms
 $recaptcha_secret = 'your-recaptcha-secret-key'; // Your reCaptcha Secret
