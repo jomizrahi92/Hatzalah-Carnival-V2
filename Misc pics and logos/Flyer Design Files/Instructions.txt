@@ -1,0 +1,99 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: carnival flyer_13_JS.indd
+
+PACKAGE DATE: 7/14/13 6:20 PM
+Creation Date: 5/27/13
+Modification Date: 6/21/13
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 1
+
+SCFusionIDCS3.InDesignPlugin
+
+
+Non Opaque Objects :On PagePB, 1
+
+FONTS
+6 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+Fonts Packaged
+- Name: Futura-CondensedExtraBold; Type: Type 1, Status: OK
+- Name: Impact; Type: OpenType TrueType, Status: OK
+- Name: MarkerFelt-Thin; Type: TrueType, Status: OK
+- Name: Times-Roman; Type: TrueType, Status: OK
+- Name: Verdana; Type: OpenType TrueType, Status: OK
+- Name: Verdana-Bold; Type: OpenType TrueType, Status: OK
+
+
+COLORS AND INKS
+4 Process Inks; 1 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 71.565; Lines/Inch: 63.245
+- Name and Type: Process Magenta; Angle: 18.434; Lines/Inch: 63.245
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 66.666
+- Name and Type: Process Black; Angle: 45.000; Lines/Inch: 70.710
+- Name and Type: R=0 G=0 B=0; Angle: 45.000; Lines/Inch: 70.710
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 7 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 0 use RGB color space
+
+
+PRINT SETTINGS
+PPD: AdobePDF 8.0, (Adobe PDF 8.0)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0 in, 0 in, 0 in, 0 in
+Color: Composite CMYK
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Letter
+Paper Dimensions: 8.5 in x 11 in
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. carnival flyer_13_JS.indd; type: Adobe InDesign publication; size: 2452K
+2. FuturConExtBol; type: Font file; size: 29K
+3. Futura-CondensedExtraBold; type: Font file; size: 5K
+4. Impact.ttf; type: Font file; size: 135K
+5. MarkerFelt.ttc; type: Font file; size: 635K
+6. Times.dfont; type: Font file; size: 1702K
+7. Verdana.ttf; type: Font file; size: 181K
+8. Verdana Bold.ttf; type: Font file; size: 149K

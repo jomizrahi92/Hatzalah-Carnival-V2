@@ -13019,6 +13019,11 @@ body:not(.no-transition) #wrapper,
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.padding-top-bottom {
+	padding: 25px 0;
+}
+
 @media screen and (max-width: 1200px) {
 	#primary-menu ul li a{
 		padding-left: 10px;
