@@ -325,7 +325,7 @@ span.middot {
 
 .header-stick { margin-top: -50px !important; }
 
-.content-wrap .header-stick { margin-top: -80px !important; }
+.content-wrap .header-stick { //margin-top: -80px !important; }
 
 .footer-stick { margin-bottom: -50px !important; }
 
@@ -11992,7 +11992,7 @@ label.checkbox { padding-left: 20px; }
 body:not(.no-transition) #wrapper,
 .animsition-overlay {
 	position: relative;
-	opacity: 1;
+	opacity: 0;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 }
@@ -13070,6 +13070,7 @@ body:not(.no-transition) #wrapper,
 		inset #bfecf7 0 0 0 23px;
 	position: relative;
 	top:10px;
+	width: 100%;
 }
 .newborder h3, .newborder h4{
 	color: dodgerblue;
