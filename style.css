@@ -13024,26 +13024,26 @@ body:not(.no-transition) #wrapper,
 	padding: 25px 0;
 }
 
-@media screen and (max-width: 1220px) {
+#header.full-header #logo {
+	padding-right: 0;
+}
+
+@media screen and (max-width: 1200px) {
 	#primary-menu ul li a{
 		padding-left: 10px;
 		padding-right: 10px;
 	}
 }
-@media screen and (max-width: 1135px) {
+@media screen and (max-width: 1105px) {
 	#primary-menu ul li a{
 		padding-left: 7px;
 		padding-right: 7px;
 	}
 }
 
-@media screen and (min-width: 992px) and (max-width: 1090px) {
+@media screen and (min-width: 992px) and (max-width: 1050px) {
 	#primary-menu ul li a{
 		font-size: 11px;
-	}
-	#primary-menu ul li a{
-		padding-left: 5px;
-		padding-right: 5px;
 	}
 }
 
