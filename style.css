@@ -13024,7 +13024,7 @@ body:not(.no-transition) #wrapper,
 	padding: 25px 0;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
 	#primary-menu ul li a{
 		padding-left: 10px;
 		padding-right: 10px;
@@ -13037,9 +13037,13 @@ body:not(.no-transition) #wrapper,
 	}
 }
 
-@media screen and (min-width: 992px) and (max-width: 1037px) {
+@media screen and (min-width: 992px) and (max-width: 1090px) {
 	#primary-menu ul li a{
 		font-size: 11.5px;
+	}
+	#primary-menu ul li a{
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 }
 
