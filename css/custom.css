@@ -5,6 +5,26 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
+.promo a.button {
+	position: static;
+	margin-top: 18px;
+}
 
+.promo a.button.button-xlarge { margin-top: 25px; }
 
+.heading-block #flyer {
+	width: 60%;
+}
+
+@media (max-width: 767px) {
+	.heading-block #flyer {
+		width: 80%;
+	}
+}
+
+@media (max-width: 479px) {
+	.heading-block #flyer {
+		width: 100%;
+	}
+}
 
