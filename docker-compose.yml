@@ -1,0 +1,9 @@
+version: '20.10.16'
+services:
+  php-apache-environment:
+    container_name: php-apache
+    image: php:8.0-apache
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - 8000:80
