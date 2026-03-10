@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
     <link rel="stylesheet" href="css/responsive.css" type="text/css" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lt IE 9]>
 		<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -23,7 +24,7 @@
     <!-- Document Title
 	============================================= -->
     <title>Jersey Shore Hatzalah Carnival</title>
-    <meta name="description" content="Eleventh Annual Jersey Shore Hatzalah Carnival! Come on August 10th 2025 to the JCC!">
+    <meta name="description" content="Twelfth Annual Jersey Shore Hatzalah Carnival! Come on July 26th 2026 to the JCC!">
 </head>
 
 <body class="stretched no-transition">
@@ -95,22 +96,50 @@
         </header>
         <!-- #header end -->
         <div class="heading-block title-center newborder">
-            <h3>10TH ANNUAL HATZALAH CARNIVAL!</h3>
-            <h3>SUNDAY, August 10th 2025</h3>
-            <h3>JCC - 100 GRANT AVE. 07723</h3>
-            <h4>11:00am - 6:00pm</h4>
+            <h3>12TH ANNUAL HATZALAH CARNIVAL!</h3>
+            <h4 class="tagline">Build. Play. Give.</h4>
+            <h3>SUNDAY, July 26th 2026</h3>
+            <h3>JCC - 100 GRANT AVE. DEAL, NJ 07723</h3>
+            <h4 class="event-time">11:00am - 6:00pm</h4>
         </div>
-       
-       <div class="promo promo-light promo-full bottommargin-lg notopborder">
+
+        <div class="countdown-section" style="width:100%;text-align:center;padding:25px 15px;background:#fdd835;">
+            <div class="countdown-row" id="carnival-countdown" style="display:flex;justify-content:center;align-items:center;gap:20px;">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="cd-days">--</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="cd-hours">--</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="cd-minutes">--</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-separator">:</div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="cd-seconds">--</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PREORDER BANNER: Set id="preorder-closed" to hide, id="preorder-open" to show -->
+        <div class="promo promo-light promo-full bottommargin-lg notopborder" id="preorder-closed">
             <div class="container clearfix title-center">
-                <h3 >Preorders are now closed!</h3>
-                <h3>PLEASE JOIN US SUNDAY, August 10th AT THE JCC!</h3>
-                <!--<h3>For more information please email <span>hatzalahcarnival@gmail.com</span>.</h3>-->
-                <!-- <h3>Beat the lines! Preorder your 10K Raffle tickets and Auction tickets!</h3> -->
-                <!-- <h3>Beat the lines! Preorder your His & Hers Rolex Set Raffle tickets and Auction tickets!</h3>
-                <h3>We strive to provide our supporters with easy online preorders!</h3>
-                <a href="http://preorder.hatzalahcarnival.com" class="button button-dark button-xlarge button-rounded" target="_blank">Preorder Auction Tickets</a>
-                <a href="https://www.rayze.it/hatzalahcarnival/" class="button button-dark button-xlarge button-rounded" target="_blank">Order Raffle Tickets</a> -->
+                <h3>PLEASE JOIN US SUNDAY, July 26th AT THE JCC!</h3>
+                <h3>Preorder details coming soon! For info email <span>hatzalahcarnival@gmail.com</span>.</h3>
+            </div>
+        </div>
+
+        <div class="promo promo-full bottommargin-lg notopborder preorder-banner" id="preorder-open" style="display:none;">
+            <div class="container clearfix title-center">
+                <h3>PREORDERS ARE NOW OPEN!</h3>
+                <h3>Beat the lines! Preorder your Raffle tickets and Auction tickets!</h3>
+                <a href="http://preorder.hatzalahcarnival.com" class="button button-light button-xlarge button-rounded" target="_blank">Preorder Online</a>
             </div>
         </div>
         
@@ -163,8 +192,7 @@
 		</section>
 		-->
         <div class="heading-block center removeborder">
-            <img src="images/home/ambulance.jpg" alt="ambulance">
-            <br>
+            <img src="images/home/lego-hero.jpg" alt="Hatzalah Carnival - Build. Play. Give.">
         </div>
         <!-- Content
 		============================================= -->
@@ -273,7 +301,7 @@
                     <div class="heading-block center">
                         <img src="images/home/HatzalahCarnivalFlyer.png" alt="Flyer" id="flyer">
                         <br>
-                        <div class="download"><a href="images/home/HatzalahCarnivalFlyer.pdf">Download Flyer</a></div>
+                        <div class="download"><a href="images/home/HatzalahCarnivalFlyer.png" download="HatzalahCarnival2026Flyer">Download Flyer</a></div>
                     </div>
                 </div>
                 <div class="container clearfix">
@@ -389,7 +417,7 @@
         <div id="copyrights">
             <div class="container clearfix">
                 <div class="col_half">
-                    Copyright &copy; 2025 All Rights Reserved Jersey Shore Hatazlah EMS.
+                    Copyright &copy; 2026 All Rights Reserved Jersey Shore Hatazlah EMS.
                     <br> Hatzalah EMS is an IRS approved 501(c)3 tax-deductible organization.
                     <br> Created By <a href="https://JosephMizrahi.com" target="_blank">Joseph Mizrahi</a>
                 </div>
@@ -512,6 +540,34 @@
         });
 
     });
+    </script>
+    <script>
+    (function() {
+        var carnivalDate = new Date('2026-07-26T11:00:00-04:00');
+        function updateCountdown() {
+            var now = new Date();
+            var diff = carnivalDate - now;
+            if (diff <= 0) {
+                var el = document.getElementById('carnival-countdown');
+                if (el) el.innerHTML = '<div style="color:#333;font-size:24px;font-weight:700;letter-spacing:3px;">THE CARNIVAL IS HERE!</div>';
+                return;
+            }
+            var days = Math.floor(diff / 86400000);
+            var hours = Math.floor((diff % 86400000) / 3600000);
+            var minutes = Math.floor((diff % 3600000) / 60000);
+            var seconds = Math.floor((diff % 60000) / 1000);
+            var dEl = document.getElementById('cd-days');
+            var hEl = document.getElementById('cd-hours');
+            var mEl = document.getElementById('cd-minutes');
+            var sEl = document.getElementById('cd-seconds');
+            if (dEl) dEl.textContent = days;
+            if (hEl) hEl.textContent = hours < 10 ? '0' + hours : hours;
+            if (mEl) mEl.textContent = minutes < 10 ? '0' + minutes : minutes;
+            if (sEl) sEl.textContent = seconds < 10 ? '0' + seconds : seconds;
+        }
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    })();
     </script>
 </body>
 
