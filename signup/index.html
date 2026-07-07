@@ -116,8 +116,25 @@
         ============================================= -->
         <section id="content">
             <div class="heading-block center">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdm8RkXUpJzD0JGov55sMSieO4u2KuQhJuMinF7xn-imfx9oQ/viewform?embedded=true" width="100%" height="2200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <div id="form-wrap" style="position:relative; min-height:600px;">
+                    <div id="form-loader" style="position:absolute; top:0; left:0; right:0; bottom:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:20px;">
+                        <div class="form-spinner"></div>
+                        <div style="font-family:'Poppins',sans-serif; font-weight:600; color:#c41e1e; letter-spacing:1px;">Loading form&hellip;</div>
+                    </div>
+                    <iframe id="volunteer-form" src="https://docs.google.com/forms/d/e/1FAIpQLSdm8RkXUpJzD0JGov55sMSieO4u2KuQhJuMinF7xn-imfx9oQ/viewform?embedded=true" width="100%" height="2200" frameborder="0" marginheight="0" marginwidth="0" style="opacity:0; transition:opacity .4s ease;" onload="var l=document.getElementById('form-loader'); if(l){l.style.display='none';} this.style.opacity=1;">Loading&hellip;</iframe>
+                </div>
             </div>
+            <style>
+                .form-spinner {
+                    width: 56px;
+                    height: 56px;
+                    border: 6px solid #fdd835;
+                    border-top-color: #c41e1e;
+                    border-radius: 50%;
+                    animation: form-spin .8s linear infinite;
+                }
+                @keyframes form-spin { to { transform: rotate(360deg); } }
+            </style>
         </section>
         <!-- #content end -->
         <!-- Footer
