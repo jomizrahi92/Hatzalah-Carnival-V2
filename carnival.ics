@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Jersey Shore Hatzalah Carnival//Event//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:12th-annual-hatzalah-carnival-2026@hatzalahcarnival.com
+DTSTAMP:20260712T000000Z
+DTSTART:20260726T150000Z
+DTEND:20260726T220000Z
+SUMMARY:12th Annual Jersey Shore Hatzalah Carnival
+DESCRIPTION:Build. Play. Give. A fun-filled day of rides\, games\, food\, and entertainment benefiting Jersey Shore Hatzalah EMS. Preorder tickets: https://preorder.hatzalahcarnival.com
+LOCATION:The JCC\, 100 Grant Ave\, Deal\, NJ 07723
+URL:https://hatzalahcarnival.com
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
